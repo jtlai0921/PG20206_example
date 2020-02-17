@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+	char buf[128];
+	int y = 1976;
+	int i;
+
+	sprintf(buf, "%dçŒÇ≈Ç∑ÇÀ", 2003-y);
+	printf("êºóÔ%dîNê∂Ç‹ÇÍÇ∆Ç¢Ç§Ç±Ç∆ÇÕ%s\n", y, buf);
+
+	return 0;
+}
+

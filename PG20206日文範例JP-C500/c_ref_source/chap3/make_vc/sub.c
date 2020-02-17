@@ -1,0 +1,8 @@
+/* sub.c */
+#include <stdio.h>
+
+void sub(int val)
+{
+	printf("ïΩê¨ %d îNÇ≈Ç∑\n", val - 1988);
+}
+
